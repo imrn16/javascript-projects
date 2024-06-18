@@ -35,3 +35,10 @@ let daysToMoon = hoursToMoon / 24;
 // Print the results of the trip to the moon below
 
 console.log(daysToMoon);
+
+let day = 'thursday'
+day = 12
+day = 18.4
+console.log(day)
+
+console.log(3 ** 3)
