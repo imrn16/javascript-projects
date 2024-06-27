@@ -10,13 +10,12 @@
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 
 function reverseCharacters(str) {
-		return str.split("").reverse().join("");
-	}
+	return str.split("").reverse().join("");
+}
 
 let word = "apple";
 
 console.log(reverseCharacters(word));
-
 
 // Part Two: Reverse Digits
 
@@ -47,9 +46,9 @@ console.log(reverseCharacters2(num));
 // 5. Return the final, reversed array.
 // 6. Be sure to print the results from each test case in order to verify your code.
 
-let arrayTest1 = ['apple', 'potato', 'Capitalized Words'];
+let arrayTest1 = ["apple", "potato", "Capitalized Words"];
 let arrayTest2 = [123, 8897, 42, 1168, 8675309];
-let arrayTest3 = ['hello', 'world', 123, 'orange'];
+let arrayTest3 = ["hello", "world", 123, "orange"];
 
 function reverseArray(arr) {
 	return arr.reverse().map((e) => {
@@ -58,7 +57,6 @@ function reverseArray(arr) {
 }
 
 console.log(reverseArray(arrayTest3));
-
 
 // Bonus Missions
 
