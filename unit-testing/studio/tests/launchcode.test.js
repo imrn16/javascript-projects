@@ -47,7 +47,7 @@ describe("Testing launchcode", function () {
 	});
 
 	test("returns Launch Rocks! when divisible by 2 and 5", () => {
-		expect(launchcode.launchOutput(20)).toBe("Launch Rocks!");
+		expect(launchcode.launchOutput(20)).toBe("Launch Rocks! (CRASH!!!!)");
 	});
 
 	test("returns LaunchCode Rocks! when divisible by 2, 3, and 5", () => {

@@ -7,7 +7,7 @@ let launchcode = {
 		if (num % 2 == 0 && num % 3 == 0 && num % 5 == 0) {
 			return "LaunchCode Rocks!";
 		} else if (num % 2 == 0 && num % 5 == 0) {
-			return "Launch Rocks!";
+			return "Launch Rocks! (CRASH!!!!)";
 		} else if (num % 3 == 0 && num % 5 == 0) {
 			return "Code Rocks!";
 		} else if (num % 2 == 0 && num % 3 == 0) {
